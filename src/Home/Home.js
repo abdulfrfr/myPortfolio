@@ -99,7 +99,7 @@ font-family: 'Montserrat', sans-serif;
 
 
 @media screen and (max-width: 768px){
-    font-size: 50px;
+    font-size: 20px;
     font-weight: bolder;
 
     
