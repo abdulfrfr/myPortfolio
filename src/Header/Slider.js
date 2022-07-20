@@ -10,7 +10,7 @@ function Slider({hidden, handleClick}){
 
         
         <NavB hidden={hidden}>
-    <LinkB onClick={handleClick} to='/home'><div>Home</div></LinkB>
+    
     <LinkB onClick={handleClick} to='/about'><div>About</div></LinkB>
     <LinkB onClick={handleClick} to='/contact'><div>Contact</div></LinkB>
     <LinkB onClick={handleClick} to='/portfolio'><div>Portfolio</div></LinkB>
