@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.proj-link{
+  text-decoration: none;
+  border: 1px solid white;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100px;
+  margin-left: 90px;
+
+}
+
+.proj-link:hover{
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+}
+
+.port-img{
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.inputs{
+  padding: 10px;
+  margin: 10px;
+  width: 295px; 
+  border: 1px solid black;
+  border-radius: 10px;
+  outline: none;
+  background-color: #D0C9C0;
+  
+}
+.inputs-email{
+  padding: 10px;
+  margin: 10px; 
+  width: 630px; 
+  border: 1px solid black;
+  border-radius: 10px;
+  outline: none;
+  background-color: #D0C9C0;
+  
+}
+.inputs-m{
+  padding: 10px;
+  margin: 10px; 
+  width: 630px;
+  height: 200px; 
+  border: 1px solid black;
+  border-radius: 10px;
+  outline: none;
+  background-color: #D0C9C0;
+  resize: none
+  
+}
+
+.send-button{
+  padding: 10px;
+  width: 120px;
+  background-color: #F0EBE3;
+  color: #576F72;
+  text-align: center;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+
+.lebel{
+  padding-left: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .inputs{
+    padding: 10px;
+    margin: 10px;
+    width: 155px; 
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+    background-color: #D0C9C0;
+    
+  }
+  .inputs-email{
+    padding: 10px;
+    margin: 10px; 
+    width: 350px; 
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+    background-color: #D0C9C0;
+    
+  }
+  .inputs-m{
+    padding: 10px;
+    margin: 10px; 
+    width: 350px; 
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+    background-color: #D0C9C0;
+    resize: none
+    
+  }
+
+  .my-img {
+    display: none;
+  }
+  .btn{
+    width: 350px;
+    margin:0 0 20px 0 ;
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    border-radius: 5px;
+    font-size: 15px;
+
+  }
+
+  .btn1{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+
+  }
+
+  .btn2{
+    color: grey;
+    background-color: white;
+    border: 1px solid grey ;
+  }
+
+  .btn:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+  }
+
+  .preview-img{
+  width: 350px;
+  margin-bottom: 100px;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  
+  .my-img {
+    width: 400px;
+    margin-top: 20px;
+    
+    
+  }
+.btn{
+  width: 190px;
+  margin:0 0 20px 0 ;
+  padding-top: 15px; 
+  padding-bottom: 15px; 
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.btn1{
+  margin-right: 15px;
+  background-color: black;
+   color: white;
+}
+.btn2{
+  margin-left: 15px;
+  background-color: white;
+  border: 1px solid rgb(221, 221, 221);
+  color: grey;
+}
+
+.btn:hover{
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+
+.first{
+  margin-right: 200px;
+ 
+}
+
+.useimg{
+  width: 400px;
+}
+
+.preview-img{
+  width: 400px;
+  padding-left: 170px;
+}
+
+.Lines{
+  border-left-style: dotted;
+}
+}
+
