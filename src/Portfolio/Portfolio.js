@@ -37,12 +37,14 @@ function Portfolio(){
         </Projects>
 
         <Explanatory>
+        <DivCenter>
             <p>These are wep apps i have made using some common techmologies HTML5, CSS3, JavaScript, and ReactJs. These are not 
             very good projects but they have taught me some good lessons which would be really handy in the nearest future. 
             I have used some good react methods like the router, hooks, styled components, react icons and some very good technical 
             problems</p>
 
             <h1>PLEASE CHECK BACK FOR MORE PROJECTS. I AM COOKING SOME COOL STUFF!!!</h1>
+            </DivCenter>
         </Explanatory>
         
 
@@ -91,6 +93,12 @@ const Project = styled.div`
 display: flex;
 flex-direction: column;
 `
+const DivCenter = styled.div`
+
+`
 const Explanatory = styled.div`
 padding: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
 `
