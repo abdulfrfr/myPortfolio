@@ -12,10 +12,12 @@ function About(){
            <Contacts>Email: abdulmails112@gmail.com</Contacts>
         </AboutP>
         <ContactInfo>
+        <DivAlign>
             <AboutH> About Me </AboutH>
             <AboutCon>I'm Abdul, I am 20 by age. A Software Engineer from Nigeria. Attended
             the Nigeria Navy Secondary School, Ojo, Lagos. A computer Science student at 
             Usman Danfodio University, Soko State Nigeria.  </AboutCon>
+            </DivAlign>
         </ContactInfo>
         <ExperienceInfo>
             <ExperienceH>Experience</ExperienceH>
@@ -35,6 +37,7 @@ function About(){
             </Lists>
         </Hobbies>
         <Ambitions>
+        <DivAlign>
             <AmbitionH>Ambition</AmbitionH>
             <Ambition>
                 I have always had a strong desire to know what was behind everything my parents use to look at 
@@ -46,6 +49,7 @@ function About(){
 
             <Quote>Personal Quote</Quote>
             <Quo>"You've Only failed when you give up"</Quo>
+         </DivAlign>
         </Ambitions>
         
         </TotalAbout>
@@ -57,20 +61,19 @@ export default About;
 const TotalAbout = styled.div`
 font-family: 'Encode Sans', sans-serif;
 margin-top: 60px;
-padding-top: 20px;
 background-color: #212121;
 color: #AAA492;
-padding: 10px 40px 10px 40px;
+padding: 20px 200px 10px 200px;
 
 
 `
 const AboutP = styled.div`
 @media screen and (min-width: 768px){
-    padding-left: 200px;
+    
     margin-bottom: 50px;
 }
 @media screen and (max-width: 768px){
-    padding-left: 0;
+    
     margin-bottom: 90px;
 }
 `
@@ -96,6 +99,8 @@ padding-buttom: 0;
 `
 const ContactInfo = styled.div`
 text-align: right;
+display: flex;
+justify-content: end;
 @media screen and (max-width: 768px){
     margin-bottom: 90px;
 }
@@ -109,8 +114,9 @@ const AboutH = styled.h1`
 font-family: 'Sora', sans-serif;
 font-size: 30px;
 
+
 @media screen and (min-width: 768px){
-    padding-right: 200px;
+    
 }
 @media screen and (max-width: 768px){
     border-bottom: 1px solid #AAA492;
@@ -123,7 +129,7 @@ font-size: 18px;
 
 
 @media screen and (min-width: 768px){
-    padding-left: 700px;
+    
     max-width: 400px;
 }
 
@@ -134,7 +140,7 @@ font-size: 18px;
 
 
 @media screen and (min-width: 768px){
-    padding-left: 200px;
+    
     margin-bottom: 50px;
     
 }
@@ -172,7 +178,7 @@ const Hobbies = styled.div`
 }
 @media screen and (min-width: 768px){
     margin-bottom: 90px;
-    padding-left: 200px;
+    
     
 }
 `
@@ -182,7 +188,7 @@ font-family: 'Sora', sans-serif;
 font-size: 30px;
 
 @media screen and (min-width: 768px){
-    padding-right: 200px;
+    
 }
 @media screen and (max-width: 768px){
     border-bottom: 1px solid #AAA492;
@@ -204,6 +210,8 @@ const List = styled.li`
 
 const Ambitions = styled.div`
 text-align: right;
+display: flex;
+justify-content: end;
 @media screen and (max-width: 768px){
     margin-bottom: 90px;
 }
@@ -216,7 +224,7 @@ font-family: 'Sora', sans-serif;
 font-size: 30px;
 
 @media screen and (min-width: 768px){
-    padding-right: 200px;
+    
 }
 @media screen and (max-width: 768px){
     border-bottom: 1px solid #AAA492;
@@ -229,7 +237,7 @@ margin-bottom: 30px;
 
 
 @media screen and (min-width: 768px){
-    padding-left: 430px;
+    
     max-width: 660px;
 }
 
@@ -240,7 +248,7 @@ font-family: 'Sora', sans-serif;
 font-size: 30px;
 
 @media screen and (min-width: 768px){
-    padding-right: 200px;
+    
 }
 @media screen and (max-width: 768px){
     border-bottom: 1px solid #AAA492;
@@ -254,7 +262,11 @@ margin-bottom: 30px;
 
 
 @media screen and (min-width: 768px){
-    padding-left: 430px;
+    
     max-width: 660px;
 }
+`
+
+const DivAlign = styled.div`
+
 `

@@ -57,6 +57,7 @@ setInterval(theTime, 1000);
 
 export default Main;
 const MainOga = styled.div`
+height: 100vh;
 padding: 0;
 margin: 0;
 background-color:#F4DFBA;

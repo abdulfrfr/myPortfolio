@@ -10,7 +10,7 @@ function Header({hidden, handleClick, handleTrue}) {
  <NavContainer>
  <LinkA onClick = {handleTrue} to="/"><Logo>@abdulfrfr</Logo></LinkA>
 <Nav>
-    <LinkA to="/home"><NavI>Home</NavI></LinkA>
+    
     <LinkA to="/about"><NavI>About</NavI></LinkA>
     <LinkA to="/contact"><NavI>Contact</NavI></LinkA>
 </Nav>
