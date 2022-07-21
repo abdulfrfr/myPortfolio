@@ -5,7 +5,6 @@ import axios from "axios";
 
 
 function Contact(){
-const [contacts, setContacts] = useState([]);
 const [isDone, setIsDone] = useState(false)
 const [isFilled, setIsFilled] = useState(false)
 const [messageInputs, setMessageInputs] = useState({
@@ -41,7 +40,6 @@ axios.post("http://localhost:3000/contacts", {
     "Email": messageInputs.email,
     "Message" : messageInputs.message
 })
-.then((responds)=> setContacts([responds, ...contacts]))
 .catch((error)=> console.log(error));
 
 

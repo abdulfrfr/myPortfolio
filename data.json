@@ -1,18 +1,5 @@
 {
   "contacts": [
-    {
-      "First Name": "Abdulsalam",
-      "Last Name": "Abdulrazaq",
-      "Email": "abdulmails112@gmail.com",
-      "Message": "Thanks Fam!",
-      "id": 1
-    },
-    {
-      "First Name": "Abdulsalam",
-      "Last Name": "Abdulrazaq",
-      "Email": "abdulmails112@gmail.com",
-      "Message": "I need to talk to you.",
-      "id": 2
-    }
+    
   ]
 }
