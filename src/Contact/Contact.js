@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import axios from "axios";
+
+
 
 function Contact(){
+const [contacts, setContacts] = useState([]);
 const [isDone, setIsDone] = useState(false)
 const [isFilled, setIsFilled] = useState(false)
 const [messageInputs, setMessageInputs] = useState({
@@ -21,10 +25,27 @@ if(messageInputs.firstName !== '' || messageInputs.lastName !== '' || messageInp
     setIsFilled(false)
     }
 
+   setIsDone(false); 
+
 }
 
+
+
 function handleSubmit(event){
-event.preventDefault();
+
+ event.preventDefault();    
+
+axios.post("http://localhost:3000/contacts", {
+    "First Name": messageInputs.firstName,
+    "Last Name": messageInputs.lastName,
+    "Email": messageInputs.email,
+    "Message" : messageInputs.message
+})
+.then((responds)=> setContacts({responds, ...contacts}))
+.catch((error)=> console.log(error));
+
+
+
 
 if(messageInputs.firstName === '' || messageInputs.lastName === '' || messageInputs.email === '' || messageInputs.message === ''){
 setIsDone(false)
@@ -39,9 +60,7 @@ setMessageInputs({
     message : ''
 })
 }
-
 }
-
 
     return(
         <ContactMain>
