@@ -41,7 +41,7 @@ axios.post("http://localhost:3000/contacts", {
     "Email": messageInputs.email,
     "Message" : messageInputs.message
 })
-.then((responds)=> setContacts({responds, ...contacts}))
+.then((responds)=> setContacts([responds, ...contacts]))
 .catch((error)=> console.log(error));
 
 
