@@ -25,10 +25,13 @@ export default Blog;
 const BlogP = styled.div`
 font-family: 'Encode Sans', sans-serif;
 margin-top: 60px;
-padding-top: 20px;
 background-color: #212121;
 color: #AAA492;
-padding: 10px 40px 10px 40px;
+padding: 20px 20px 10px 20px;
+
+@media screen and (min-width:768px){
+height: 100vh;
+}
 `
 
 const Head = styled.div``
