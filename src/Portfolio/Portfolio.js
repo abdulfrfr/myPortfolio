@@ -55,13 +55,17 @@ function Portfolio(){
 export default Portfolio;
 
 const PortfolioP = styled.div`
-height: 100vh;
+
 font-family: 'Encode Sans', sans-serif;
 margin-top: 60px;
 padding-top: 20px;
 background-color: #212121;
 color: #AAA492;
-padding: 20px 100px 10px 100px;
+padding: 20px 20px 10px 20px;
+@media screen and (min-width:767px){
+height: 100vh;
+
+}
 `
 const PortfolioH = styled.h1`
 font-family: 'Sora', sans-serif;
