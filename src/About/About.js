@@ -63,7 +63,10 @@ font-family: 'Encode Sans', sans-serif;
 margin-top: 60px;
 background-color: #212121;
 color: #AAA492;
-padding: 20px 200px 10px 200px;
+@media screen and (min-width: 768px){
+
+}padding: 20px 200px 10px 200px;
+padding: 10px 20px 10px 20px;
 
 
 `
